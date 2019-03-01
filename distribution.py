@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: <miviriaz
+Credit: https://www.geeksforgeeks.org/python-sort-list-according-length-elements/
 
 Assignment:
 
