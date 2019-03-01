@@ -47,4 +47,20 @@ for l in characterlist:
     if l in atoz:
         mylist=mylist+list(l)
 newlist=mylist.sort()
-print(newlist) 
+#print(newlist) 
+number=len(newlist)
+newestlist=[]
+newestlist=list(newlist[0])
+
+for x in range(1, number):
+    if newlist[x]==newlist[x-1]:
+        newestlist[len(newestlist)-1]=str(newestlist[len(newestlist)-1])+str(newlist[x]) #need to append to element
+    else:
+        newestlist.append(newlist[x]) #append to list
+        
+#print(newestlist)
+final=sorted(newestlist,reverse=True,key=len)
+#print(final)
+print('The distribution of characters in "' + words + '" is: ')
+for r in final:
+    print(r)
