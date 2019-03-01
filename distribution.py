@@ -1,6 +1,6 @@
 """
 distribution.py
-Author: <miviriaz
+Author: miviriaz
 Credit: https://www.geeksforgeeks.org/python-sort-list-according-length-elements/
 
 Assignment:
